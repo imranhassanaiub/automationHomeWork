@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Test">
+  <test name="ordertest">
+       <classes>
+        <class name="com.leads.test.suite.TestConfig"></class>
+        <class name="com.leads.test.suite.TestOrder">
+        <methods>
+        <include name="order"></include></methods>
+        </class>
+                </classes>
+  </test>
+  <test name="databaseset">
+       <classes>
+        <class name="com.leads.test.suite.TestConfig"></class>
+        <class name="com.leads.test.suite.TestNgGroupTest"></class>
+        </classes>
+  </test>
+</suite>

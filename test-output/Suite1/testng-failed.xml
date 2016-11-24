@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="TestLoginandFlightfind(failed)">
+    <classes>
+      <class name="com.leads.test.web.FlightFinderTest">
+        <methods>
+          <include name="checkFlightFind"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.leads.test.web.FlightFinderTest -->
+      <class name="com.leads.test.web.LoginTest">
+        <methods>
+          <include name="loadUrl"/>
+        </methods>
+      </class> <!-- com.leads.test.web.LoginTest -->
+    </classes>
+  </test> <!-- TestLoginandFlightfind(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

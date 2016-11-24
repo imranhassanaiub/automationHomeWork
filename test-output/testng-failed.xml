@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [all]">
+  <parameter name="number" value="25"/>
+  <parameter name="expects" value="30"/>
+  <test name="paramatertest(failed)">
+    <parameter name="number" value="25"/>
+    <parameter name="expects" value="30"/>
+    <classes>
+      <class name="com.leads.test.suite.DataProviderTest">
+        <methods>
+          <include name="TestData" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- com.leads.test.suite.DataProviderTest -->
+    </classes>
+  </test> <!-- paramatertest(failed) -->
+</suite> <!-- Failed suite [all] -->

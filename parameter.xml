@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="all">
+  <test name="paramatertest">
+  <parameter name="number" value="10"></parameter>
+   <parameter name="expects" value="20"></parameter>
+         <classes>
+        <class name="com.leads.test.suite.DataProviderTest"></class>
+    </classes>
+    </test>
+</suite>
