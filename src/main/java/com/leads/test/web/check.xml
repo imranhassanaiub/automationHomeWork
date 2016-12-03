@@ -7,6 +7,7 @@
        		 <class name="com.leads.test.web.LoginTest"></class>
         	 <class name="com.leads.test.web.FlightFinderTest"></class>
         	  <class name="com.leads.test.web.SelectFlightTest"></class>
+        	  <class name="com.leads.test.web.BookFlightTest"></class>
        </classes>
   </test>
   

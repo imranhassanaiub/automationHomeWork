@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Test]">
+  <test name="test(failed)">
     <classes>
+      <class name="com.leads.test.web.SelectFlightTest">
+        <methods>
+          <include name="loadUrl"/>
+          <include name="selectflight"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.leads.test.web.SelectFlightTest -->
+      <class name="com.leads.test.web.BookFlightTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="loadUrl"/>
+          <include name="bookAflight"/>
+        </methods>
+      </class> <!-- com.leads.test.web.BookFlightTest -->
+      <class name="com.leads.test.web.FlightFinderTest">
+        <methods>
+          <include name="checkFlightFind"/>
+          <include name="loadUrl"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.leads.test.web.FlightFinderTest -->
       <class name="com.leads.test.web.LoginTest">
         <methods>
           <include name="closeDriver"/>
@@ -11,5 +32,5 @@
         </methods>
       </class> <!-- com.leads.test.web.LoginTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Test] -->
