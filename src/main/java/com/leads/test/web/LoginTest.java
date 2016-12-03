@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -37,7 +38,44 @@ public class LoginTest {
 		driver.findElement(By.xpath(XpathLocator.Login.password)).sendKeys("demo");
 		driver.findElement(By.xpath(XpathLocator.Login.signin)).click();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
+		/*
+		 * //Flight Find
+		 * driver.findElement(By.xpath(XpathLocator.FlightFind.typeRadioButton))
+		 * .click(); new
+		 * Select(driver.findElement(By.xpath(XpathLocator.FlightFind.
+		 * passengerdropdown))).selectByVisibleText("2");
+		 * driver.findElement(By.xpath(XpathLocator.FlightFind.typeRadioButton))
+		 * .click(); new
+		 * Select(driver.findElement(By.xpath(XpathLocator.FlightFind.
+		 * passengerdropdown))).selectByVisibleText("2"); new
+		 * Select(driver.findElement(By.xpath(XpathLocator.FlightFind.
+		 * departingfromdropdown))) .selectByVisibleText("Paris"); new
+		 * Select(driver.findElement(By.xpath(XpathLocator.FlightFind.
+		 * ondropdownMonth))) .selectByVisibleText("November"); new
+		 * Select(driver.findElement(By.xpath(XpathLocator.FlightFind.
+		 * ondropdownday))).selectByVisibleText("20"); new
+		 * Select(driver.findElement(By.xpath(XpathLocator.FlightFind.
+		 * arrivingindropdown))) .selectByVisibleText("London"); new
+		 * Select(driver.findElement(By.xpath(XpathLocator.FlightFind.
+		 * returningdropdownMonth))) .selectByVisibleText("December"); new
+		 * Select(driver.findElement(By.xpath(XpathLocator.FlightFind.
+		 * returningdropdownDay))).selectByVisibleText("5");
+		 * driver.findElement(By.xpath(XpathLocator.FlightFind.serviceClassRadio
+		 * )).click(); new
+		 * Select(driver.findElement(By.xpath(XpathLocator.FlightFind.
+		 * airlinedropdown))) .selectByVisibleText("Unified Airlines");
+		 * driver.findElement(By.xpath(XpathLocator.FlightFind.continuebutton)).
+		 * click(); driver.manage().timeouts().implicitlyWait(30,
+		 * TimeUnit.SECONDS);
+		 * 
+		 * //Select Flight
+		 * driver.findElement(By.xpath(XpathLocator.SelectFlight.selectDepart)).
+		 * click();
+		 * driver.findElement(By.xpath(XpathLocator.SelectFlight.selectReturn)).
+		 * click(); driver.findElement(By.xpath(XpathLocator.SelectFlight.
+		 * continueToBookFlightbutton)).click();
+		 * 
+		 */
 	}
 
 	@AfterClass

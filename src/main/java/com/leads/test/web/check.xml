@@ -6,6 +6,7 @@
        <classes>
        		 <class name="com.leads.test.web.LoginTest"></class>
         	 <class name="com.leads.test.web.FlightFinderTest"></class>
+        	  <class name="com.leads.test.web.SelectFlightTest"></class>
        </classes>
   </test>
   
