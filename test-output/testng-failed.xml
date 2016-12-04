@@ -5,26 +5,17 @@
     <classes>
       <class name="com.leads.test.web.SelectFlightTest">
         <methods>
-          <include name="loadUrl"/>
-          <include name="closeDriver"/>
+          <include name="selectflight"/>
         </methods>
       </class> <!-- com.leads.test.web.SelectFlightTest -->
       <class name="com.leads.test.web.BookFlightTest">
         <methods>
           <include name="closeDriver"/>
-          <include name="loadUrl"/>
           <include name="bookAflight"/>
         </methods>
       </class> <!-- com.leads.test.web.BookFlightTest -->
-      <class name="com.leads.test.web.FlightFinderTest">
-        <methods>
-          <include name="loadUrl"/>
-          <include name="closeDriver"/>
-        </methods>
-      </class> <!-- com.leads.test.web.FlightFinderTest -->
       <class name="com.leads.test.web.LoginTest">
         <methods>
-          <include name="closeDriver"/>
           <include name="loadUrl"/>
         </methods>
       </class> <!-- com.leads.test.web.LoginTest -->
