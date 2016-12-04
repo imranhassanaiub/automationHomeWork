@@ -6,7 +6,6 @@
       <class name="com.leads.test.web.SelectFlightTest">
         <methods>
           <include name="loadUrl"/>
-          <include name="selectflight"/>
           <include name="closeDriver"/>
         </methods>
       </class> <!-- com.leads.test.web.SelectFlightTest -->
@@ -19,7 +18,6 @@
       </class> <!-- com.leads.test.web.BookFlightTest -->
       <class name="com.leads.test.web.FlightFinderTest">
         <methods>
-          <include name="checkFlightFind"/>
           <include name="loadUrl"/>
           <include name="closeDriver"/>
         </methods>
@@ -27,7 +25,6 @@
       <class name="com.leads.test.web.LoginTest">
         <methods>
           <include name="closeDriver"/>
-          <include name="checkTitle"/>
           <include name="loadUrl"/>
         </methods>
       </class> <!-- com.leads.test.web.LoginTest -->

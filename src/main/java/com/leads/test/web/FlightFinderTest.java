@@ -5,8 +5,6 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.leads.test.utils.XpathLocator;
@@ -14,14 +12,6 @@ import com.leads.test.utils.XpathLocator;
 public class FlightFinderTest {
 
 	WebDriver driver = DriverConfiquration.loadDriver();
-
-	@BeforeClass
-	public void loadUrl() {
-
-		// driver.getCurrentUrl();
-		// System.out.println(driver.getCurrentUrl());
-		// driver.get(driver.getCurrentUrl()+"mercuryreservation.php");
-	}
 
 	@Test
 	public void checkFlightFind()
@@ -46,11 +36,4 @@ public class FlightFinderTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
-	@AfterClass
-	public void closeDriver()
-
-	{
-		driver.close();
-		// driver.quit();
-	}
 }

@@ -4,8 +4,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.leads.test.utils.XpathLocator;
@@ -14,10 +12,6 @@ public class SelectFlightTest {
 
 	WebDriver driver = DriverConfiquration.loadDriver();
 
-	@BeforeClass
-	public void loadUrl() {
-
-	}
 
 	@Test
 	public void selectflight() {
@@ -27,11 +21,5 @@ public class SelectFlightTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
-	@AfterClass
-	public void closeDriver()
-
-	{
-		driver.close();
-		// driver.quit();
-	}
+	
 }
