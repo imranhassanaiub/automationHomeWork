@@ -5,9 +5,8 @@
     <classes>
       <class name="com.leads.test.web.LoginTest">
         <methods>
-          <include name="closeDriver"/>
-          <include name="checkTitle"/>
           <include name="loadUrl"/>
+          <include name="checkLogin"/>
         </methods>
       </class> <!-- com.leads.test.web.LoginTest -->
     </classes>

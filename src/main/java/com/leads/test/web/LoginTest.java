@@ -1,5 +1,8 @@
 package com.leads.test.web;
 
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -8,6 +11,7 @@ import com.leads.test.ServiceImplementation.LoginServiceImplementation;
 import com.leads.test.serviceInterfaces.LoginService;
 import com.leads.test.utils.PageTitle;
 import com.leads.test.utils.PageUrl;
+import com.leads.test.utils.XpathLocator;
 
 import junit.framework.Assert;
 
@@ -15,7 +19,7 @@ public class LoginTest {
 
 	WebDriver driver = DriverConfiquration.loadDriver();
 
-	LoginService loginservice;
+	LoginService loginservice = new LoginServiceImplementation();
 
 	@BeforeClass
 	public void loadUrl() {
@@ -31,8 +35,8 @@ public class LoginTest {
 
 	@Test
 	public void checkLogin()
-
 	{
+		
 		loginservice.checkLogin(driver);
 
 	}

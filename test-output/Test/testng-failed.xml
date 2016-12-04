@@ -3,22 +3,17 @@
 <suite name="Failed suite [Test]">
   <test name="test(failed)">
     <classes>
-      <class name="com.leads.test.web.SelectFlightTest">
-        <methods>
-          <include name="selectflight"/>
-        </methods>
-      </class> <!-- com.leads.test.web.SelectFlightTest -->
-      <class name="com.leads.test.web.BookFlightTest">
-        <methods>
-          <include name="closeDriver"/>
-          <include name="bookAflight"/>
-        </methods>
-      </class> <!-- com.leads.test.web.BookFlightTest -->
       <class name="com.leads.test.web.LoginTest">
         <methods>
           <include name="loadUrl"/>
+          <include name="checkLogin"/>
         </methods>
       </class> <!-- com.leads.test.web.LoginTest -->
+      <class name="com.leads.test.web.BookFlightTest">
+        <methods>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.leads.test.web.BookFlightTest -->
     </classes>
   </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [Test] -->

@@ -1,47 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Test" duration-ms="22643" started-at="2016-12-04T09:34:49Z" finished-at="2016-12-04T09:35:12Z">
+  <suite name="Default suite" duration-ms="13432" started-at="2016-12-04T11:41:33Z" finished-at="2016-12-04T11:41:47Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="22643" started-at="2016-12-04T09:34:49Z" finished-at="2016-12-04T09:35:12Z">
+    <test name="Default test" duration-ms="13432" started-at="2016-12-04T11:41:33Z" finished-at="2016-12-04T11:41:47Z">
       <class name="com.leads.test.web.LoginTest">
-        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.leads.test.web.LoginTest@2accdbb5]" name="loadUrl" is-config="true" duration-ms="5471" started-at="2016-12-04T15:34:49Z" finished-at="2016-12-04T15:34:55Z">
+        <test-method status="PASS" signature="loadUrl()[pri:0, instance:com.leads.test.web.LoginTest@41fecb8b]" name="loadUrl" is-config="true" duration-ms="11742" started-at="2016-12-04T17:41:33Z" finished-at="2016-12-04T17:41:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadUrl -->
-        <test-method status="PASS" signature="checkLogin()[pri:0, instance:com.leads.test.web.LoginTest@2accdbb5]" name="checkLogin" duration-ms="1016" started-at="2016-12-04T15:34:55Z" finished-at="2016-12-04T15:34:56Z">
+        <test-method status="PASS" signature="checkLogin()[pri:0, instance:com.leads.test.web.LoginTest@41fecb8b]" name="checkLogin" duration-ms="1625" started-at="2016-12-04T17:41:45Z" finished-at="2016-12-04T17:41:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogin -->
-        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.leads.test.web.LoginTest@2accdbb5]" name="checkTitle" duration-ms="14" started-at="2016-12-04T15:34:56Z" finished-at="2016-12-04T15:34:56Z">
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:com.leads.test.web.LoginTest@41fecb8b]" name="checkTitle" duration-ms="19" started-at="2016-12-04T17:41:47Z" finished-at="2016-12-04T17:41:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
       </class> <!-- com.leads.test.web.LoginTest -->
-      <class name="com.leads.test.web.BookFlightTest">
-        <test-method status="PASS" signature="bookAflight()[pri:0, instance:com.leads.test.web.BookFlightTest@272ed83b]" name="bookAflight" duration-ms="7574" started-at="2016-12-04T15:35:04Z" finished-at="2016-12-04T15:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bookAflight -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.leads.test.web.BookFlightTest@272ed83b]" name="closeDriver" is-config="true" duration-ms="9" started-at="2016-12-04T15:35:12Z" finished-at="2016-12-04T15:35:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- com.leads.test.web.BookFlightTest -->
-      <class name="com.leads.test.web.FlightFinderTest">
-        <test-method status="PASS" signature="checkFlightFind()[pri:0, instance:com.leads.test.web.FlightFinderTest@1e6454ec]" name="checkFlightFind" duration-ms="4923" started-at="2016-12-04T15:34:56Z" finished-at="2016-12-04T15:35:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkFlightFind -->
-      </class> <!-- com.leads.test.web.FlightFinderTest -->
-      <class name="com.leads.test.web.SelectFlightTest">
-        <test-method status="PASS" signature="selectflight()[pri:0, instance:com.leads.test.web.SelectFlightTest@c333c60]" name="selectflight" duration-ms="3608" started-at="2016-12-04T15:35:01Z" finished-at="2016-12-04T15:35:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectflight -->
-      </class> <!-- com.leads.test.web.SelectFlightTest -->
-    </test> <!-- test -->
-  </suite> <!-- Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
