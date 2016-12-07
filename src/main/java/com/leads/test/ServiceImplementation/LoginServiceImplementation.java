@@ -18,6 +18,7 @@ public class LoginServiceImplementation implements LoginService {
 	
 	public String checkTitle(WebDriver driver) {
 
+		System.out.println("Login Page Title Verified!!");
 		return driver.getTitle();
 
 	}

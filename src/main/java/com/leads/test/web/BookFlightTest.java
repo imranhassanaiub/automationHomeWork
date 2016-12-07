@@ -13,6 +13,11 @@ public class BookFlightTest {
 	BookFlightService bookflightservice;
 
 	@Test
+	public void checkFlightFinderPageTitle() {
+		
+	}
+
+	@Test
 	public void bookAflight() {
 		bookflightservice = new BookFlightServiceImplementation();
 
